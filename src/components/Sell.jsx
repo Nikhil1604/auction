@@ -27,7 +27,7 @@ const Sell = () => {
     </div>
     {/* button */}
     <div className='w-full'>
-          <button className='w-48 h-10 bg-slate-300 border-2 border-slate-300 hover:bg-slate-400 hover:border-slate-400 hover:text-white rounded-md'>Upload the product</button>
+          <button className='w-48 h-10 bg-indigo-300 border-2 border-indigo-300 hover:bg-indigo-400 hover:border-indigo-400 hover:text-white rounded-md'>Upload the product</button>
         </div>
     </div>
   )

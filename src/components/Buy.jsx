@@ -22,7 +22,7 @@ const Buy = () => {
         <div className='w-full h-auto shadow-lg px-5 mx-auto text-center bg-slate-300 rounded-lg'>
         <h1 className='py-2 text-2xl'>{item.title}</h1>
         <h1 className='py-2 font-semibold text-xl'>Price: {item.price}</h1>
-        <img className='w-60 h-60 object-contain py-2 px-5 pb-5 rounded-xl mx-auto text-center items-center ' src={item.images[1]} alt={item.name} />
+        <img className='w-60 h-60 object-fill py-2 px-5 pb-5 rounded-xl mx-auto text-center items-center ' src={item.images[1]} alt={item.name} />
         <h1 className='text-xl pb-2 font-semibold'>Description</h1>
         <h1 className='pb-5'>{item.description}</h1>
         </div>
